@@ -1,4 +1,4 @@
-package me.weicools.screen.adaptation.swwidth;
+package me.weicools.screen.smallestwidth;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
