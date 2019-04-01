@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp_1">1.3333dp</dimen>
+    <dimen name="dp_16">21.3333dp</dimen>
+    <dimen name="dp_90">120.0000dp</dimen>
+    <dimen name="dp_109">145.3333dp</dimen>
+    <dimen name="dp_120">160.0000dp</dimen>
+    <dimen name="dp_150">200.0000dp</dimen>
+    <dimen name="dp_180">240.0000dp</dimen>
+    <dimen name="dp_250">333.3333dp</dimen>
+</resources>
