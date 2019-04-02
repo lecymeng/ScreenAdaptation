@@ -3,6 +3,7 @@
     <dimen name="dp_1">1.0000dp</dimen>
     <dimen name="dp_16">16.0000dp</dimen>
     <dimen name="dp_90">90.0000dp</dimen>
+    <dimen name="dp_100">100.0000dp</dimen>
     <dimen name="dp_109">109.0000dp</dimen>
     <dimen name="dp_120">120.0000dp</dimen>
     <dimen name="dp_150">150.0000dp</dimen>

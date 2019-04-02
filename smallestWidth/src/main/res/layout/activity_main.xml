@@ -9,7 +9,7 @@
   
   <Button
     android:layout_width="match_parent"
-    android:layout_height="100dp"
+    android:layout_height="@dimen/dp_100"
     android:layout_margin="@dimen/dp_16"
     android:background="#fd0"
     android:text="Margin-16dp"
@@ -24,7 +24,7 @@
     
     <Button
       android:layout_width="@dimen/dp_180"
-      android:layout_height="100dp"
+      android:layout_height="@dimen/dp_100"
       android:background="@color/colorAccent"
       android:text="W-180dp"
       android:textAllCaps="false"
@@ -33,7 +33,7 @@
     
     <Button
       android:layout_width="@dimen/dp_180"
-      android:layout_height="100dp"
+      android:layout_height="@dimen/dp_100"
       android:background="#0d0"
       android:text="W-180dp"
       android:textAllCaps="false"
@@ -48,7 +48,7 @@
     
     <TextView
       android:layout_width="@dimen/dp_250"
-      android:layout_height="100dp"
+      android:layout_height="@dimen/dp_100"
       android:background="@color/colorPrimary"
       android:gravity="center"
       android:text="W-250dp"
@@ -57,11 +57,11 @@
     
     <View
       android:layout_width="@dimen/dp_1"
-      android:layout_height="100dp" />
+      android:layout_height="@dimen/dp_100" />
     
     <TextView
       android:layout_width="@dimen/dp_109"
-      android:layout_height="100dp"
+      android:layout_height="@dimen/dp_100"
       android:background="#d0a"
       android:gravity="center"
       android:text="W-109dp"

@@ -8,21 +8,21 @@ import xml.dom.minidom
 baseDp = 360
 dimenTypes = [300, 320, 360, 384, 392, 411, 440, 480, 533, 592, 640]
 
-moduleName = 'smallestWidth'
+moduleName = 'swtest'
 rootPath = os.path.abspath('')
 resPath = rootPath + '/' + moduleName + '/src/main/res'
 
 
-def writeXmlData(dimenType, dimenData):
+def write_xml_data(dimen_type, dimen_data):
     xmlData = '<?xml version="1.0" encoding="utf-8"?>\n<resources>'
-    for key, value in dimenData.items():
+    for key, value in dimen_data.items():
         temp = int(value.replace('dp', ''))
-        dimenValue = '%.4f' % (temp * dimenType / baseDp)
+        dimenValue = '%.4f' % (temp * dimen_type / baseDp)
         row = '\n    <dimen name="%s">%sdp</dimen>' % (key, dimenValue)
         xmlData = xmlData + row
     xmlData = xmlData + '\n</resources>'
 
-    xmlPath = resPath + '/values-sw%ddp' % dimenType
+    xmlPath = resPath + '/values-sw%ddp' % dimen_type
     isExists = os.path.exists(xmlPath)
     if not isExists:
         os.makedirs(xmlPath)
@@ -40,8 +40,5 @@ if __name__ == '__main__':
     for dimen in dimens:
         dimenData[dimen.getAttribute('name')] = dimen.firstChild.data
 
-    # for key, value in dimenData.items():
-    #     print('name: %s, value: %s' % (key, value))
-
     for dimenType in dimenTypes:
-        writeXmlData(dimenType, dimenData)
+        write_xml_data(dimenType, dimenData)
