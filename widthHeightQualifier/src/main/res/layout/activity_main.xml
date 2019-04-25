@@ -9,8 +9,8 @@
   
   <Button
     android:layout_width="match_parent"
-    android:layout_height="300px"
-    android:layout_margin="48px"
+    android:layout_height="@dimen/y200"
+    android:layout_margin="@dimen/x32"
     android:background="#fd0"
     android:text="Margin-48px"
     android:textAllCaps="false"
@@ -23,8 +23,8 @@
     android:orientation="horizontal">
     
     <Button
-      android:layout_width="540px"
-      android:layout_height="300px"
+      android:layout_width="@dimen/x360"
+      android:layout_height="@dimen/y200"
       android:background="@color/colorAccent"
       android:text="W-540px"
       android:textAllCaps="false"
@@ -32,8 +32,8 @@
       android:textSize="30sp" />
     
     <Button
-      android:layout_width="540px"
-      android:layout_height="300px"
+      android:layout_width="@dimen/x360"
+      android:layout_height="@dimen/y200"
       android:background="#0d0"
       android:text="W-540px"
       android:textAllCaps="false"
@@ -47,8 +47,8 @@
     android:orientation="horizontal">
     
     <TextView
-      android:layout_width="750px"
-      android:layout_height="300px"
+      android:layout_width="@dimen/x500"
+      android:layout_height="@dimen/y200"
       android:background="@color/colorPrimary"
       android:gravity="center"
       android:text="W-750px"
@@ -56,15 +56,16 @@
       android:textSize="20sp" />
     
     <View
-      android:layout_width="3px"
-      android:layout_height="300px" />
+      android:layout_width="@dimen/x2"
+      android:layout_height="@dimen/y200" />
     
     <TextView
-      android:layout_width="327px"
-      android:layout_height="300px"
+      android:layout_width="@dimen/x218"
+      android:layout_height="@dimen/y200"
       android:background="#d0a"
       android:gravity="center"
       android:text="W-327px"
+      android:singleLine="true"
       android:textColor="#0d0"
       android:textSize="20sp" />
   </LinearLayout>
@@ -75,7 +76,7 @@
     android:orientation="horizontal">
     
     <TextView
-      android:layout_width="360px"
+      android:layout_width="@dimen/x240"
       android:layout_height="match_parent"
       android:background="#aef"
       android:gravity="center"
@@ -84,7 +85,7 @@
       android:textSize="20sp" />
     
     <TextView
-      android:layout_width="270px"
+      android:layout_width="@dimen/x180"
       android:layout_height="match_parent"
       android:background="#acf"
       android:gravity="center"
@@ -93,7 +94,7 @@
       android:textSize="20sp" />
     
     <TextView
-      android:layout_width="450px"
+      android:layout_width="@dimen/x300"
       android:layout_height="match_parent"
       android:background="#fcf"
       android:gravity="center"

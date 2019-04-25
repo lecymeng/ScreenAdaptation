@@ -1,1 +1,1 @@
-include ':smallestWidth', ':noAdapted', ':autoSize', ':autolayout'
+include ':smallestWidth', ':noAdapted', ':autoSize', ':autolayout', ':widthHeightQualifier'
