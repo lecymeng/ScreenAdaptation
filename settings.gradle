@@ -1,1 +1,1 @@
-include ':smallestWidth', ':noAdapted', ':autoSize', ':autolayout', ':widthHeightQualifier'
+include ':app', ':autoSize', ':autolayout', ':customDensity'

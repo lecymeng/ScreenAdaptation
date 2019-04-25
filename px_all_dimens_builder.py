@@ -5,12 +5,13 @@ import os
 from xml.dom.minidom import parse
 import xml.dom.minidom
 
-basePx = [1280, 720]
-dimenTypes = {800: 480, 960: 540, 1920: 1080, 2280: 1080, 2560: 1440, 2960: 1440}
+basePx = [1920, 1080]
+dimenTypes = {800: 480, 960: 540, 1280: 720, 2560: 1440, 2960: 1440}
 
-moduleName = 'widthHeightQualifier'
+moduleName = 'app'
+resModuleName = '/widthheight'
 rootPath = os.path.abspath('')
-resPath = rootPath + '/' + moduleName + '/src/main/res'
+resPath = rootPath + '/' + moduleName + '/src/main/res' + resModuleName
 
 
 def write_xml_data(height, width, dimen_data):

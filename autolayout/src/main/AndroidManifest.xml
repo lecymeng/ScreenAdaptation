@@ -19,7 +19,9 @@
       android:name="design_height"
       android:value="1920" />
     
-    <activity android:name=".MainActivity">
+    <activity
+      android:name=".MainActivity"
+      android:label="AutoLayout by 鸿洋">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         

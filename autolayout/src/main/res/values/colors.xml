@@ -3,4 +3,12 @@
   <color name="colorPrimary">#008577</color>
   <color name="colorPrimaryDark">#00574B</color>
   <color name="colorAccent">#D81B60</color>
+  
+  <color name="hunt_black">#222831</color>
+  <color name="hunt_dark">#393e46</color>
+  <color name="hunt_turquoise">#00adb5</color>
+  <color name="hunt_red_orange">#f38181</color>
+  <color name="hunt_yellow">#fce38a</color>
+  <color name="hunt_yel">#eaffd0</color>
+  <color name="hunt_blue">#3490de</color>
 </resources>

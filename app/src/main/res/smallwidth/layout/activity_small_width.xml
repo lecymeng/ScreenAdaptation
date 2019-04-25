@@ -9,8 +9,8 @@
   
   <Button
     android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:layout_margin="16dp"
+    android:layout_height="@dimen/dp_100"
+    android:layout_margin="@dimen/dp_16"
     android:background="@color/hunt_blue"
     android:text="Margin-16dp"
     android:textAllCaps="false"
@@ -23,8 +23,8 @@
     android:orientation="horizontal">
     
     <Button
-      android:layout_width="180dp"
-      android:layout_height="100dp"
+      android:layout_width="@dimen/dp_180"
+      android:layout_height="@dimen/dp_100"
       android:background="@color/hunt_black"
       android:text="W-180dp"
       android:textAllCaps="false"
@@ -32,8 +32,8 @@
       android:textSize="28sp" />
     
     <Button
-      android:layout_width="180dp"
-      android:layout_height="100dp"
+      android:layout_width="@dimen/dp_180"
+      android:layout_height="@dimen/dp_100"
       android:background="@color/hunt_dark"
       android:text="W-180dp"
       android:textAllCaps="false"
@@ -47,8 +47,8 @@
     android:orientation="horizontal">
     
     <TextView
-      android:layout_width="250dp"
-      android:layout_height="100dp"
+      android:layout_width="@dimen/dp_250"
+      android:layout_height="@dimen/dp_100"
       android:background="@color/colorPrimary"
       android:gravity="center"
       android:text="W-250dp"
@@ -56,8 +56,8 @@
       android:textSize="20sp" />
     
     <TextView
-      android:layout_width="110dp"
-      android:layout_height="100dp"
+      android:layout_width="@dimen/dp_110"
+      android:layout_height="@dimen/dp_100"
       android:background="@color/hunt_turquoise"
       android:gravity="center"
       android:text="W-110dp"
@@ -71,7 +71,7 @@
     android:orientation="horizontal">
     
     <TextView
-      android:layout_width="150dp"
+      android:layout_width="@dimen/dp_150"
       android:layout_height="match_parent"
       android:background="@color/hunt_red_orange"
       android:gravity="center"
@@ -80,7 +80,7 @@
       android:textSize="20sp" />
     
     <TextView
-      android:layout_width="120dp"
+      android:layout_width="@dimen/dp_120"
       android:layout_height="match_parent"
       android:background="@color/hunt_yellow"
       android:gravity="center"
@@ -89,7 +89,7 @@
       android:textSize="20sp" />
     
     <TextView
-      android:layout_width="90dp"
+      android:layout_width="@dimen/dp_90"
       android:layout_height="match_parent"
       android:background="@color/hunt_yel"
       android:gravity="center"

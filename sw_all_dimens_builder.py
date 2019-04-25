@@ -8,9 +8,10 @@ import xml.dom.minidom
 baseDp = 360
 dimenTypes = [300, 320, 360, 384, 392, 411, 440, 480, 533, 592, 640]
 
-moduleName = 'smallestWidth'
+moduleName = 'app'
+resModuleName = '/smallwidth'
 rootPath = os.path.abspath('')
-resPath = rootPath + '/' + moduleName + '/src/main/res'
+resPath = rootPath + '/' + moduleName + '/src/main/res' + resModuleName
 
 
 def write_xml_data(dimen_type, dimen_data):

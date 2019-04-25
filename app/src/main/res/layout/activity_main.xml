@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".MainActivity"
+  tools:ignore="HardcodedText">
+  
+  <Button
+    android:id="@+id/btn_non_adapt"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="8dp"
+    android:background="@color/colorAccent"
+    android:text="仅使用dp"
+    android:textAllCaps="false" />
+  
+  <Button
+    android:id="@+id/btn_small_width"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="8dp"
+    android:background="@color/colorPrimary"
+    android:text="最小宽度限定符"
+    android:textAllCaps="false" />
+  
+  <Button
+    android:id="@+id/btn_width_height"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="8dp"
+    android:background="@color/colorPrimaryDark"
+    android:text="宽高限定符"
+    android:textAllCaps="false" />
+</LinearLayout>

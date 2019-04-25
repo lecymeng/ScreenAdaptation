@@ -11,11 +11,11 @@
     android:layout_width="match_parent"
     android:layout_height="300px"
     android:layout_margin="48px"
-    android:background="#fd0"
+    android:background="@color/hunt_blue"
     android:text="Margin-48px"
     android:textAllCaps="false"
     android:textColor="#fff"
-    android:textSize="25sp" />
+    android:textSize="24sp" />
   
   <LinearLayout
     android:layout_width="wrap_content"
@@ -25,20 +25,20 @@
     <Button
       android:layout_width="540px"
       android:layout_height="300px"
-      android:background="@color/colorAccent"
+      android:background="@color/hunt_black"
       android:text="W-540px"
       android:textAllCaps="false"
       android:textColor="#fff"
-      android:textSize="30sp" />
+      android:textSize="28sp" />
     
     <Button
       android:layout_width="540px"
       android:layout_height="300px"
-      android:background="#0d0"
+      android:background="@color/hunt_dark"
       android:text="W-540px"
       android:textAllCaps="false"
       android:textColor="#fff"
-      android:textSize="30sp" />
+      android:textSize="28sp" />
   </LinearLayout>
   
   <LinearLayout
@@ -55,16 +55,12 @@
       android:textColor="#0d0"
       android:textSize="20sp" />
     
-    <View
-      android:layout_width="3px"
-      android:layout_height="300px" />
-    
     <TextView
-      android:layout_width="327px"
+      android:layout_width="330px"
       android:layout_height="300px"
-      android:background="#d0a"
+      android:background="@color/hunt_turquoise"
       android:gravity="center"
-      android:text="W-327px"
+      android:text="W-330px"
       android:textColor="#0d0"
       android:textSize="20sp" />
   </LinearLayout>
@@ -75,9 +71,18 @@
     android:orientation="horizontal">
     
     <TextView
+      android:layout_width="450px"
+      android:layout_height="match_parent"
+      android:background="@color/hunt_red_orange"
+      android:gravity="center"
+      android:text="W-450px"
+      android:textColor="#0d0"
+      android:textSize="20sp" />
+    
+    <TextView
       android:layout_width="360px"
       android:layout_height="match_parent"
-      android:background="#aef"
+      android:background="@color/hunt_yellow"
       android:gravity="center"
       android:text="W-360px"
       android:textColor="#0d0"
@@ -86,18 +91,9 @@
     <TextView
       android:layout_width="270px"
       android:layout_height="match_parent"
-      android:background="#acf"
+      android:background="@color/hunt_yel"
       android:gravity="center"
       android:text="W-270px"
-      android:textColor="#0d0"
-      android:textSize="20sp" />
-    
-    <TextView
-      android:layout_width="450px"
-      android:layout_height="match_parent"
-      android:background="#fcf"
-      android:gravity="center"
-      android:text="W-450px"
       android:textColor="#0d0"
       android:textSize="20sp" />
   </LinearLayout>
