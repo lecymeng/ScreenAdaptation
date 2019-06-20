@@ -34,4 +34,5 @@ dependencies {
 
   implementation DepLibs.appcompatV7
   implementation DepLibs.constraintLayout
+  implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }
