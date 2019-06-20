@@ -40,4 +40,26 @@
     android:background="@color/colorPrimaryDark"
     android:text="宽高限定符"
     android:textAllCaps="false" />
+  
+  <Button
+    android:id="@+id/btn_alien_screen_immersive"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="8dp"
+    android:background="@color/hunt_turquoise"
+    android:text="异形屏-沉浸式适配"
+    android:textAllCaps="false" />
+  
+  <Button
+    android:id="@+id/btn_alien_screen_full"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="8dp"
+    android:background="@color/hunt_blue"
+    android:text="异形屏-全屏适配"
+    android:textAllCaps="false" />
 </LinearLayout>

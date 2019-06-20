@@ -15,21 +15,31 @@ public class MainActivity extends AppCompatActivity {
     findViewById(R.id.btn_non_adapt).setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick (View v) {
-        //startActivity(new Intent(MainActivity.this, NonAdaptActivity.class));
-        startActivity(new Intent(MainActivity.this, ImmersiveActivity.class));
+        startActivity(new Intent(MainActivity.this, NonAdaptActivity.class));
       }
     });
     findViewById(R.id.btn_small_width).setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick (View v) {
-        //startActivity(new Intent(MainActivity.this, SmallWidthActivity.class));
-        startActivity(new Intent(MainActivity.this, FullscreenActivity.class));
+        startActivity(new Intent(MainActivity.this, SmallWidthActivity.class));
       }
     });
     findViewById(R.id.btn_width_height).setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick (View v) {
         startActivity(new Intent(MainActivity.this, WidthHeightActivity.class));
+      }
+    });
+    findViewById(R.id.btn_alien_screen_immersive).setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick (View v) {
+        startActivity(new Intent(MainActivity.this, ImmersiveActivity.class));
+      }
+    });
+    findViewById(R.id.btn_alien_screen_full).setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick (View v) {
+        startActivity(new Intent(MainActivity.this, FullscreenActivity.class));
       }
     });
   }
