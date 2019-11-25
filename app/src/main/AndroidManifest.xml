@@ -25,6 +25,7 @@
     </activity>
     <activity
       android:name=".NonAdaptActivity"
+      android:theme="@style/AppThemeNoBar"
       android:label="仅使用dp适配" />
     <activity
       android:name=".SmallWidthActivity"
